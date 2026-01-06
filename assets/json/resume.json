@@ -1,24 +1,29 @@
 {
   "basics": {
-    "name": "Egor A. Bersenev",
-    "label": "Scientist",
+    [cite_start]"name": "Egor Bersenev [cite: 1]",
+    [cite_start]"label": "Scientist [cite: 22]",
     "image": "",
-    "email": "egor.bersenev@esrf.fr",
-    "phone": "(912) 123-4567",
-    "url": "https://chelberserker.github.io/",
-    "summary": "Scientist in the field of soft matter physics",
+    [cite_start]"email": "bersenjow@gmail.com [cite: 2]",
+    [cite_start]"phone": "+33 7 66 60 43 38 [cite: 2]",
+    [cite_start]"url": "https://github.com/chelberseker [cite: 24]",
+    [cite_start]"summary": "Scientist in the field of soft matter physics, specializing in X-ray scattering, polymers, and self-assembly[cite: 22]. [cite_start]Experienced in establishing composition-structure relationships in polymer-surfactant mixtures[cite: 9].",
     "location": {
-      "address": "71 Avenue des Martyrs",
-      "postalCode": "38000",
-      "city": "Grenoble",
-      "countryCode": "FR",
-      "region": "Isere"
+      "address": "",
+      "postalCode": "",
+      [cite_start]"city": "Grenoble [cite: 4]",
+      [cite_start]"countryCode": "FR [cite: 4]",
+      "region": ""
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "egor_bersenev",
-        "url": "https://twitter.com/egor_bersenev"
+        "network": "GitHub",
+        "username": "chelberseker",
+        [cite_start]"url": "https://github.com/chelberseker [cite: 24]"
+      },
+      {
+        "network": "ORCID",
+        "username": "0000-0001-5609-7794",
+        [cite_start]"url": "https://orcid.org/0000-0001-5609-7794 [cite: 22]"
       }
     ]
   },
@@ -27,103 +32,233 @@
       "name": "European Synchrotron Radiation Facility",
       "position": "Visiting Researcher",
       "url": "https://esrf.fr",
-      "startDate": "2025-08-01",
-      "endDate": "2026-01-01",
-      "summary": "Development of the data analysis tools and verification of the results on the structure of dried polymer-surfactant complexes",
-      "highlights": ["Published a Python package for the analysis of surface scattering data"]
+      "startDate": "2024",
+      "endDate": "2025",
+      "location": "Grenoble, France",
+      [cite_start]"summary": "Complex and biomedical sciences group, ID10 beamline[cite: 4].",
+      "highlights": [
+        [cite_start]"Support of external facility users from industrial and public research [cite: 5]",
+        [cite_start]"Validation of structural parameters of long-lasting antimicrobial coatings [cite: 6]"
+      ]
+    },
+    {
+      "name": "European Synchrotron Radiation Facility",
+      "position": "Doctoral Researcher",
+      "url": "https://esrf.fr",
+      "startDate": "2021",
+      "endDate": "2024",
+      "location": "Grenoble, France",
+      [cite_start]"summary": "Complex and biomedical sciences group, ID10 beamline[cite: 7].",
+      "highlights": [
+        [cite_start]"Project: Optimising antimicrobial longevity and residuality of polymer-surfactant films [cite: 8]",
+        [cite_start]"Planned and executed experiments to establish the composition-structure relationship in polymer-surfactant mixtures in aqueous solution and on the interfaces using X-ray, neutron and light scattering [cite: 9]",
+        [cite_start]"Project included a 2 month industrial placement at Procter & Gamble Research UK (Newcastle upon Tyne) [cite: 10]"
+      ]
+    },
+    {
+      "name": "Moscow State University",
+      "position": "Research Associate, Laboratory Manager",
+      "startDate": "2018",
+      "endDate": "2021",
+      "location": "Moscow, Russia",
+      [cite_start]"summary": "Laboratory of functional organic and hybrid polymer systems[cite: 12].",
+      "highlights": [
+        [cite_start]"Project: Investigation of biomimetic bottlebrush polymers using in situ X-ray scattering [cite: 13]",
+        [cite_start]"Focused on deducing the structure-property connection in bottlebrush-like block copolymers with various architectures [cite: 13]",
+        [cite_start]"Gained mechanistic insight into the unique mechanical properties of the bottlebrush copolymers, using a combination of X-ray scattering and thermal analysis, including ultra fast scanning calorimetry [cite: 14]"
+      ]
     }
   ],
   "education": [
     {
       "institution": "University of Bristol",
       "location": "Bristol, England",
-      "url": "https://www.bristol.ac.uk/",
       "area": "Chemistry",
       "studyType": "PhD",
-      "startDate": "2021-09-19",
-      "endDate": "2025-07-30",
+      "startDate": "2021",
+      "endDate": "2025",
+      "score": "",
+      "courses": [
+        [cite_start]"Thesis: Polymer-surfactant complexation: connecting solution structure and interfacial properties [cite: 17]"
+      ]
+    },
+    {
+      "institution": "Moscow Institute of Physics and Technology",
+      "location": "Moscow, Russia",
+      "area": "School of Electronics, Photonics and Molecular Physics",
+      "studyType": "Master of Science",
+      "startDate": "2019",
+      "endDate": "2021",
+      [cite_start]"score": "Degree with honours [cite: 18]"
+    },
+    {
+      "institution": "Moscow Institute of Physics and Technology",
+      "location": "Moscow, Russia",
+      "area": "Department of Molecular and Chemical Physics",
+      "studyType": "Bachelor of Science",
+      "startDate": "2015",
+      "endDate": "2019",
+      [cite_start]"score": "Degree with honours [cite: 20]"
     }
   ],
-
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-  ],
+  "certificates": [],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Humidity induced structural transformation in self-organised polymer-surfactant multilayer nanofilms",
+      "publisher": "Langmuir",
+      "releaseDate": "2025-10-01",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.langmuir.5c04237",
+      [cite_start]"summary": "Bersenev, E. A., Gutfreund, P., Rein, V., Chumakov, A., Konovalov, O. V. & Briscoe, W. H. [cite: 41]"
     },
+    {
+      "name": "Balance of hydrophobic and electrostatic interaction of polymers and surfactants: Case of anionic surfactant and hydrophobically modified polymer",
+      "publisher": "Journal of Colloid and Interface Science",
+      "releaseDate": "2025-09-01",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0021979725009634",
+      [cite_start]"summary": "Bersenev, E. A., Matthews, L., Rein, V., Fong, R. J., Konovalov, O. V. & Briscoe, W. H. [cite: 43]"
+    },
+    {
+      "name": "Super-soft, firm, and strong elastomers toward replication of tissue viscoelastic response",
+      "publisher": "Materials Horizons",
+      "releaseDate": "2022-11-01",
+      "url": "https://pubs.rsc.org/en/content/articlelanding/2022/mh/d2mh00844k",
+      [cite_start]"summary": "Dashtimoghadam, E. et al. [cite: 45]"
+    },
+    {
+      "name": "Bottlebrush Elastomers with Crystallizable Side Chains: Monitoring Configuration of Polymer Backbones in the Amorphous Regions during Crystallization",
+      "publisher": "ACS Macro Letters",
+      "releaseDate": "2022-09-01",
+      "url": "https://doi.org/10.1021/acsmacrolett.2c00394",
+      "summary": "Bersenev, Ε. [cite_start]Α., Nikitina, E. A., Dashtimoghadam, E., Sheiko, S. S. & Ivanov, D. A. [cite: 47]"
+    },
+    {
+      "name": "Brush Architecture and Network Elasticity: Path to the Design of Mechanically Diverse Elastomers",
+      "publisher": "Macromolecules",
+      "releaseDate": "2022-04-01",
+      "url": "https://doi.org/10.1021/acs.macromol.2c00006",
+      [cite_start]"summary": "Maw, M. et al. [cite: 49]"
+    },
+    {
+      "name": "Synthesis, Molecular Characterization, and Phase Behavior of Miktoarm Star Copolymers...",
+      "publisher": "Macromolecules",
+      "releaseDate": "2022-01-01",
+      "url": "https://doi.org/10.1021/acs.macromol.1c01863",
+      [cite_start]"summary": "Liontos, G. et al. [cite: 51]"
+    },
+    {
+      "name": "Molecular patterns of oligopeptide hydrocarbons on graphite",
+      "publisher": "Colloids and Surfaces B: Biointerfaces",
+      "releaseDate": "2021-10-01",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0927776521003659",
+      [cite_start]"summary": "Barinov, N. A. et al. [cite: 54]"
+    },
+    {
+      "name": "Melting-Induced Evolution of Morphology, Entanglement Density, and Ultradrawability of Solution-Crystallized Ultrahigh-Molecular-Weight Polyethylene",
+      "publisher": "Macromolecules",
+      "releaseDate": "2021-06-01",
+      "url": "https://doi.org/10.1021/acs.macromol.1c00667",
+      [cite_start]"summary": "Christakopoulos, F. et al. [cite: 56]"
+    },
+    {
+      "name": "Self-Assembly of Low-Molecular-Weight Asymmetric Linear Triblock Terpolymers: How Low Can We Go?",
+      "publisher": "Molecules",
+      "releaseDate": "2020-01-01",
+      "url": "https://www.mdpi.com/1420-3049/25/23/5527",
+      [cite_start]"summary": "Miskaki, C. et al. [cite: 58]"
+    },
+    {
+      "name": "Tissue-Adaptive Materials with Independently Regulated Modulus and Transition Temperature",
+      "publisher": "Advanced Materials",
+      "releaseDate": "2020-01-01",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/adma.202005314",
+      [cite_start]"summary": "Zhang, D. et al. [cite: 61]"
+    },
+    {
+      "name": "Independently Tuning Elastomer Softness and Firmness by Incorporating Side Chain Mixtures into Bottlebrush Network Strands",
+      "publisher": "Macromolecules",
+      "releaseDate": "2020-11-01",
+      "url": "https://doi.org/10.1021/acs.macromol.0c01725",
+      [cite_start]"summary": "Keith, A. N. et al. [cite: 63]"
+    },
+    {
+      "name": "Exploring the Complexation of Counterion in Novel Family of Polyelectrolytes with Unexpected Solubility Behaviour",
+      "publisher": "Key Engineering Materials",
+      "releaseDate": "2020-01-01",
+      "url": "https://www.scientific.net/KEM.869.61",
+      [cite_start]"summary": "Bersenev, E. A. et al. [cite: 66]"
+    },
+    {
+      "name": "Synthesis and Solid-State Properties of PolyC3 (Co) polymers...",
+      "publisher": "Macromolecules",
+      "releaseDate": "2019-12-01",
+      "url": "https://doi.org/10.1021/acs.macromol.9b01559",
+      [cite_start]"summary": "Illy, N. et al. [cite: 69]"
+    },
+    {
+      "name": "Synergetic effect of fullerene and graphene oxide nanoparticles on mechanical characteristics of cross-linked polyurethanes",
+      "publisher": "Journal of Composite Materials",
+      "releaseDate": "2019-11-01",
+      "url": "https://doi.org/10.1177/0021998319848077",
+      [cite_start]"summary": "Tarasov, A. E. et al. [cite: 71]"
+    }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Scientific Research",
+      "level": "Expert",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        [cite_start]"X-ray scattering [cite: 22]",
+        [cite_start]"Polymers [cite: 22]",
+        [cite_start]"Soft matter physics [cite: 22]",
+        [cite_start]"Self-assembly [cite: 22]",
+        [cite_start]"Neutron scattering [cite: 9]",
+        [cite_start]"Light scattering [cite: 9]",
+        [cite_start]"Thermal analysis [cite: 14]",
+        [cite_start]"Scanning calorimetry [cite: 14]"
+      ]
+    },
+    {
+      "name": "Computing",
+      "level": "",
+      "keywords": [
+        [cite_start]"Python [cite: 23]",
+        [cite_start]"Linux [cite: 23]",
+        [cite_start]"LATEX [cite: 23]"
       ]
     }
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
+      [cite_start]"fluency": "C2 [cite: 22]"
     },
     {
       "language": "French",
-      "fluency": "Professional proficiency",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      [cite_start]"fluency": "B2 [cite: 22]"
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "language": "German",
+      [cite_start]"fluency": "B1 [cite: 22]"
+    },
+    {
+      "language": "Russian",
+      [cite_start]"fluency": "Native [cite: 22]"
     }
   ],
-  "projects": [
+  "interests": [],
+  "references": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Dr. Oleg Konovalov",
+      [cite_start]"reference": "ESRF, konovalo@esrf.fr [cite: 11]"
+    },
+    {
+      "name": "Prof. Dr. Wuge H. Briscoe",
+      [cite_start]"reference": "University of Bristol, wuge.briscoe@bristol.ac.uk [cite: 12]"
+    },
+    {
+      "name": "Prof. Dr. Dimitry Ivanov",
+      [cite_start]"reference": "IS2M Mulhouse, dimitri.ivanov@uha.fr [cite: 15]"
     }
-  ]
+  ],
+  "projects": []
 }
