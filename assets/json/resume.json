@@ -1,29 +1,29 @@
 {
   "basics": {
-    [cite_start]"name": "Egor Bersenev [cite: 1]",
-    [cite_start]"label": "Scientist [cite: 22]",
+    "name": "Egor Bersenev",
+    "label": "Scientist",
     "image": "",
-    [cite_start]"email": "bersenjow@gmail.com [cite: 2]",
-    [cite_start]"phone": "+33 7 66 60 43 38 [cite: 2]",
-    [cite_start]"url": "https://github.com/chelberseker [cite: 24]",
-    [cite_start]"summary": "Scientist in the field of soft matter physics, specializing in X-ray scattering, polymers, and self-assembly[cite: 22]. [cite_start]Experienced in establishing composition-structure relationships in polymer-surfactant mixtures[cite: 9].",
+    "email": "bersenjow@gmail.com",
+    "phone": "+33 7 66 60 43 38",
+    "url": "https://github.com/chelberseker",
+    "summary": "Scientist in the field of soft matter physics, specializing in X-ray scattering, polymers, and self-assembly. Experienced in establishing composition-structure relationships in polymer-surfactant mixtures.",
     "location": {
       "address": "",
       "postalCode": "",
-      [cite_start]"city": "Grenoble [cite: 4]",
-      [cite_start]"countryCode": "FR [cite: 4]",
+      "city": "Grenoble",
+      "countryCode": "FR",
       "region": ""
     },
     "profiles": [
       {
         "network": "GitHub",
         "username": "chelberseker",
-        [cite_start]"url": "https://github.com/chelberseker [cite: 24]"
+        "url": "https://github.com/chelberseker"
       },
       {
         "network": "ORCID",
         "username": "0000-0001-5609-7794",
-        [cite_start]"url": "https://orcid.org/0000-0001-5609-7794 [cite: 22]"
+        "url": "https://orcid.org/0000-0001-5609-7794"
       }
     ]
   },
@@ -35,10 +35,10 @@
       "startDate": "2024",
       "endDate": "2025",
       "location": "Grenoble, France",
-      [cite_start]"summary": "Complex and biomedical sciences group, ID10 beamline[cite: 4].",
+      "summary": "Complex and biomedical sciences group, ID10 beamline.",
       "highlights": [
-        [cite_start]"Support of external facility users from industrial and public research [cite: 5]",
-        [cite_start]"Validation of structural parameters of long-lasting antimicrobial coatings [cite: 6]"
+        "Support of external facility users from industrial and public research",
+        "Validation of structural parameters of long-lasting antimicrobial coatings"
       ]
     },
     {
@@ -48,11 +48,11 @@
       "startDate": "2021",
       "endDate": "2024",
       "location": "Grenoble, France",
-      [cite_start]"summary": "Complex and biomedical sciences group, ID10 beamline[cite: 7].",
+      "summary": "Complex and biomedical sciences group, ID10 beamline.",
       "highlights": [
-        [cite_start]"Project: Optimising antimicrobial longevity and residuality of polymer-surfactant films [cite: 8]",
-        [cite_start]"Planned and executed experiments to establish the composition-structure relationship in polymer-surfactant mixtures in aqueous solution and on the interfaces using X-ray, neutron and light scattering [cite: 9]",
-        [cite_start]"Project included a 2 month industrial placement at Procter & Gamble Research UK (Newcastle upon Tyne) [cite: 10]"
+        "Project: Optimising antimicrobial longevity and residuality of polymer-surfactant films",
+        "Planned and executed experiments to establish the composition-structure relationship in polymer-surfactant mixtures in aqueous solution and on the interfaces using X-ray, neutron and light scattering",
+        "Project included a 2 month industrial placement at Procter & Gamble Research UK (Newcastle upon Tyne)"
       ]
     },
     {
@@ -61,11 +61,11 @@
       "startDate": "2018",
       "endDate": "2021",
       "location": "Moscow, Russia",
-      [cite_start]"summary": "Laboratory of functional organic and hybrid polymer systems[cite: 12].",
+      "summary": "Laboratory of functional organic and hybrid polymer systems.",
       "highlights": [
-        [cite_start]"Project: Investigation of biomimetic bottlebrush polymers using in situ X-ray scattering [cite: 13]",
-        [cite_start]"Focused on deducing the structure-property connection in bottlebrush-like block copolymers with various architectures [cite: 13]",
-        [cite_start]"Gained mechanistic insight into the unique mechanical properties of the bottlebrush copolymers, using a combination of X-ray scattering and thermal analysis, including ultra fast scanning calorimetry [cite: 14]"
+        "Project: Investigation of biomimetic bottlebrush polymers using in situ X-ray scattering",
+        "Focused on deducing the structure-property connection in bottlebrush-like block copolymers with various architectures",
+        "Gained mechanistic insight into the unique mechanical properties of the bottlebrush copolymers, using a combination of X-ray scattering and thermal analysis, including ultra fast scanning calorimetry"
       ]
     }
   ],
@@ -79,7 +79,7 @@
       "endDate": "2025",
       "score": "",
       "courses": [
-        [cite_start]"Thesis: Polymer-surfactant complexation: connecting solution structure and interfacial properties [cite: 17]"
+        "Thesis: Polymer-surfactant complexation: connecting solution structure and interfacial properties"
       ]
     },
     {
@@ -89,7 +89,7 @@
       "studyType": "Master of Science",
       "startDate": "2019",
       "endDate": "2021",
-      [cite_start]"score": "Degree with honours [cite: 18]"
+      "score": "Degree with honours"
     },
     {
       "institution": "Moscow Institute of Physics and Technology",
@@ -98,7 +98,7 @@
       "studyType": "Bachelor of Science",
       "startDate": "2015",
       "endDate": "2019",
-      [cite_start]"score": "Degree with honours [cite: 20]"
+      "score": "Degree with honours"
     }
   ],
   "certificates": [],
@@ -108,98 +108,98 @@
       "publisher": "Langmuir",
       "releaseDate": "2025-10-01",
       "url": "https://pubs.acs.org/doi/10.1021/acs.langmuir.5c04237",
-      [cite_start]"summary": "Bersenev, E. A., Gutfreund, P., Rein, V., Chumakov, A., Konovalov, O. V. & Briscoe, W. H. [cite: 41]"
+      "summary": "Bersenev, E. A., Gutfreund, P., Rein, V., Chumakov, A., Konovalov, O. V. & Briscoe, W. H."
     },
     {
       "name": "Balance of hydrophobic and electrostatic interaction of polymers and surfactants: Case of anionic surfactant and hydrophobically modified polymer",
       "publisher": "Journal of Colloid and Interface Science",
       "releaseDate": "2025-09-01",
       "url": "https://www.sciencedirect.com/science/article/pii/S0021979725009634",
-      [cite_start]"summary": "Bersenev, E. A., Matthews, L., Rein, V., Fong, R. J., Konovalov, O. V. & Briscoe, W. H. [cite: 43]"
+      "summary": "Bersenev, E. A., Matthews, L., Rein, V., Fong, R. J., Konovalov, O. V. & Briscoe, W. H."
     },
     {
       "name": "Super-soft, firm, and strong elastomers toward replication of tissue viscoelastic response",
       "publisher": "Materials Horizons",
       "releaseDate": "2022-11-01",
       "url": "https://pubs.rsc.org/en/content/articlelanding/2022/mh/d2mh00844k",
-      [cite_start]"summary": "Dashtimoghadam, E. et al. [cite: 45]"
+      "summary": "Dashtimoghadam, E. et al."
     },
     {
       "name": "Bottlebrush Elastomers with Crystallizable Side Chains: Monitoring Configuration of Polymer Backbones in the Amorphous Regions during Crystallization",
       "publisher": "ACS Macro Letters",
       "releaseDate": "2022-09-01",
       "url": "https://doi.org/10.1021/acsmacrolett.2c00394",
-      "summary": "Bersenev, Ε. [cite_start]Α., Nikitina, E. A., Dashtimoghadam, E., Sheiko, S. S. & Ivanov, D. A. [cite: 47]"
+      "summary": "Bersenev, Ε. Α., Nikitina, E. A., Dashtimoghadam, E., Sheiko, S. S. & Ivanov, D. A."
     },
     {
       "name": "Brush Architecture and Network Elasticity: Path to the Design of Mechanically Diverse Elastomers",
       "publisher": "Macromolecules",
       "releaseDate": "2022-04-01",
       "url": "https://doi.org/10.1021/acs.macromol.2c00006",
-      [cite_start]"summary": "Maw, M. et al. [cite: 49]"
+      "summary": "Maw, M. et al."
     },
     {
       "name": "Synthesis, Molecular Characterization, and Phase Behavior of Miktoarm Star Copolymers...",
       "publisher": "Macromolecules",
       "releaseDate": "2022-01-01",
       "url": "https://doi.org/10.1021/acs.macromol.1c01863",
-      [cite_start]"summary": "Liontos, G. et al. [cite: 51]"
+      "summary": "Liontos, G. et al."
     },
     {
       "name": "Molecular patterns of oligopeptide hydrocarbons on graphite",
       "publisher": "Colloids and Surfaces B: Biointerfaces",
       "releaseDate": "2021-10-01",
       "url": "https://www.sciencedirect.com/science/article/pii/S0927776521003659",
-      [cite_start]"summary": "Barinov, N. A. et al. [cite: 54]"
+      "summary": "Barinov, N. A. et al."
     },
     {
       "name": "Melting-Induced Evolution of Morphology, Entanglement Density, and Ultradrawability of Solution-Crystallized Ultrahigh-Molecular-Weight Polyethylene",
       "publisher": "Macromolecules",
       "releaseDate": "2021-06-01",
       "url": "https://doi.org/10.1021/acs.macromol.1c00667",
-      [cite_start]"summary": "Christakopoulos, F. et al. [cite: 56]"
+      "summary": "Christakopoulos, F. et al."
     },
     {
       "name": "Self-Assembly of Low-Molecular-Weight Asymmetric Linear Triblock Terpolymers: How Low Can We Go?",
       "publisher": "Molecules",
       "releaseDate": "2020-01-01",
       "url": "https://www.mdpi.com/1420-3049/25/23/5527",
-      [cite_start]"summary": "Miskaki, C. et al. [cite: 58]"
+      "summary": "Miskaki, C. et al."
     },
     {
       "name": "Tissue-Adaptive Materials with Independently Regulated Modulus and Transition Temperature",
       "publisher": "Advanced Materials",
       "releaseDate": "2020-01-01",
       "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/adma.202005314",
-      [cite_start]"summary": "Zhang, D. et al. [cite: 61]"
+      "summary": "Zhang, D. et al."
     },
     {
       "name": "Independently Tuning Elastomer Softness and Firmness by Incorporating Side Chain Mixtures into Bottlebrush Network Strands",
       "publisher": "Macromolecules",
       "releaseDate": "2020-11-01",
       "url": "https://doi.org/10.1021/acs.macromol.0c01725",
-      [cite_start]"summary": "Keith, A. N. et al. [cite: 63]"
+      "summary": "Keith, A. N. et al."
     },
     {
       "name": "Exploring the Complexation of Counterion in Novel Family of Polyelectrolytes with Unexpected Solubility Behaviour",
       "publisher": "Key Engineering Materials",
       "releaseDate": "2020-01-01",
       "url": "https://www.scientific.net/KEM.869.61",
-      [cite_start]"summary": "Bersenev, E. A. et al. [cite: 66]"
+      "summary": "Bersenev, E. A. et al."
     },
     {
       "name": "Synthesis and Solid-State Properties of PolyC3 (Co) polymers...",
       "publisher": "Macromolecules",
       "releaseDate": "2019-12-01",
       "url": "https://doi.org/10.1021/acs.macromol.9b01559",
-      [cite_start]"summary": "Illy, N. et al. [cite: 69]"
+      "summary": "Illy, N. et al."
     },
     {
       "name": "Synergetic effect of fullerene and graphene oxide nanoparticles on mechanical characteristics of cross-linked polyurethanes",
       "publisher": "Journal of Composite Materials",
       "releaseDate": "2019-11-01",
       "url": "https://doi.org/10.1177/0021998319848077",
-      [cite_start]"summary": "Tarasov, A. E. et al. [cite: 71]"
+      "summary": "Tarasov, A. E. et al."
     }
   ],
   "skills": [
@@ -207,57 +207,57 @@
       "name": "Scientific Research",
       "level": "Expert",
       "keywords": [
-        [cite_start]"X-ray scattering [cite: 22]",
-        [cite_start]"Polymers [cite: 22]",
-        [cite_start]"Soft matter physics [cite: 22]",
-        [cite_start]"Self-assembly [cite: 22]",
-        [cite_start]"Neutron scattering [cite: 9]",
-        [cite_start]"Light scattering [cite: 9]",
-        [cite_start]"Thermal analysis [cite: 14]",
-        [cite_start]"Scanning calorimetry [cite: 14]"
+        "X-ray scattering",
+        "Polymers",
+        "Soft matter physics",
+        "Self-assembly",
+        "Neutron scattering",
+        "Light scattering",
+        "Thermal analysis",
+        "Scanning calorimetry"
       ]
     },
     {
       "name": "Computing",
       "level": "",
       "keywords": [
-        [cite_start]"Python [cite: 23]",
-        [cite_start]"Linux [cite: 23]",
-        [cite_start]"LATEX [cite: 23]"
+        "Python",
+        "Linux",
+        "LATEX"
       ]
     }
   ],
   "languages": [
     {
       "language": "English",
-      [cite_start]"fluency": "C2 [cite: 22]"
+      "fluency": "C2"
     },
     {
       "language": "French",
-      [cite_start]"fluency": "B2 [cite: 22]"
+      "fluency": "B2"
     },
     {
       "language": "German",
-      [cite_start]"fluency": "B1 [cite: 22]"
+      "fluency": "B1"
     },
     {
       "language": "Russian",
-      [cite_start]"fluency": "Native [cite: 22]"
+      "fluency": "Native"
     }
   ],
   "interests": [],
   "references": [
     {
       "name": "Dr. Oleg Konovalov",
-      [cite_start]"reference": "ESRF, konovalo@esrf.fr [cite: 11]"
+      "reference": "ESRF, konovalo@esrf.fr"
     },
     {
       "name": "Prof. Dr. Wuge H. Briscoe",
-      [cite_start]"reference": "University of Bristol, wuge.briscoe@bristol.ac.uk [cite: 12]"
+      "reference": "University of Bristol, wuge.briscoe@bristol.ac.uk"
     },
     {
       "name": "Prof. Dr. Dimitry Ivanov",
-      [cite_start]"reference": "IS2M Mulhouse, dimitri.ivanov@uha.fr [cite: 15]"
+      "reference": "IS2M Mulhouse, dimitri.ivanov@uha.fr"
     }
   ],
   "projects": []
