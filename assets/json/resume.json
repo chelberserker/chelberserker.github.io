@@ -78,9 +78,7 @@
       "startDate": "2021",
       "endDate": "2025",
       "score": "",
-      "courses": [
-        "Thesis: Polymer-surfactant complexation: connecting solution structure and interfacial properties"
-      ]
+      "courses": ["Thesis: Polymer-surfactant complexation: connecting solution structure and interfacial properties"]
     },
     {
       "institution": "Moscow Institute of Physics and Technology",
@@ -220,11 +218,7 @@
     {
       "name": "Computing",
       "level": "",
-      "keywords": [
-        "Python",
-        "Linux",
-        "LATEX"
-      ]
+      "keywords": ["Python", "Linux", "LATEX"]
     }
   ],
   "languages": [
