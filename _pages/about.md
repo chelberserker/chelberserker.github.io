@@ -6,8 +6,8 @@ subtitle: About me
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: True # crops the image to make it circular
+  image: profile_photo.jpg
+  image_circular: False # crops the image to make it circular
   more_info: >
     <p>71 Avenue des Martyrs</p>
     <p>Grenoble, France</p>
