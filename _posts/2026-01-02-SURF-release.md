@@ -15,27 +15,21 @@ Main processing pipeline was settled during past few years with inputs from Oleg
 
 The package can be installed via pip:
 
-````markdown
 ```bash
 pip install esrf-id10-surf
 ```
-````
 
 If you fancy making changes to the code to facilitate your specific analysis, then package can be installed in the modifiable way:
 
-````markdown
 ```bash
 git clone https://github.com/chelberserker/ESRF_ID10_SURF
 cd ESRF_ID10_SURF
 pip install -e .
 ```
-````
+
 
 Code is available freely on my [Github](https://github.com/chelberserker/ESRF_ID10_SURF) and is distributed through MIT license.
 API documentation is hosted [here](https://chelberserker.github.io/ESRF_ID10_SURF) and will be updated 
-
-
-{% raw %}
 
 ```liquid
 {::nomarkdown}
@@ -48,5 +42,3 @@ API documentation is hosted [here](https://chelberserker.github.io/ESRF_ID10_SUR
 {% endif %}
 {:/nomarkdown}
 ```
-
-{% endraw %}
