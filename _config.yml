@@ -220,6 +220,9 @@ plugins:
   - jekyll-twitter-plugin
   - jemoji
 
+
+gems:
+  - jekyll-jupyter-notebook
 # Sitemap settings
 defaults:
   - scope:
