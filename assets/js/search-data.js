@@ -65,7 +65,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "books-the-godfather",
+            },{id: "post-surf-python-package-is-released",
+        
+          title: "SURF Python package is released",
+        
+        description: "Release of a software package for Surface X-ray scattering processing",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/SURF-release/";
+          
+        },
+      },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
