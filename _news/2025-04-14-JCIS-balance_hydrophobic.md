@@ -5,8 +5,8 @@ date: 2025-04-14 16:11:00-0400
 inline: false
 related_posts: false
 ---
-The first paper from my PhD project
----
+
+## The first paper from my PhD project
 
 Paper titled "Balance of hydrophobic and electrostatic interaction of polymers and surfactants: Case of anionic surfactant and hydrophobically modified polymer" is out on the journal website.
 
