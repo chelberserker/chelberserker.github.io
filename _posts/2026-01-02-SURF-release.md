@@ -1,6 +1,6 @@
 ---
 layout: post
-title: a post with jupyter notebook
+title: SURF Python package is released
 date: 2026-01-02 12:00:00-0400
 description: Release of a software package for Surface X-ray scattering processing
 tags: [XRR, GID, python, software]
