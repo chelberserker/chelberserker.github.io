@@ -28,17 +28,19 @@ pip install -e .
 ```
 
 
-Code is available freely on my [Github](https://github.com/chelberserker/ESRF_ID10_SURF) and is distributed through MIT license.
+Code is available freely on my [GitHub](https://github.com/chelberserker/ESRF_ID10_SURF) and is distributed through MIT license.
 API documentation is hosted [here](https://chelberserker.github.io/ESRF_ID10_SURF) and will be updated 
 
-```liquid
-{::nomarkdown}
-{% assign jupyter_path = 'assets/jupyter/blog.ipynb' | relative_url %}
+Below is an example of processing XRR and GID data with this package. 
+It also demonstrates how a simple fitting of GID can be performed to make quick conclusion during the experiment.
+Fitting of XRR data is deliberately not included in the package, but it is good practice to guesstimate it with something else, e.g. [refnx](https://refnx.readthedocs.io).
+
+
+{% assign jupyter_path = 'assets/jupyter/SURF_usage.ipynb' | relative_url %}
 {% capture notebook_exists %}{% file_exists assets/jupyter/SURF_usage.ipynb %}{% endcapture %}
 {% if notebook_exists == 'true' %}
   {% jupyter_notebook jupyter_path %}
 {% else %}
   <p>Sorry, the notebook you are looking for does not exist.</p>
 {% endif %}
-{:/nomarkdown}
-```
+
