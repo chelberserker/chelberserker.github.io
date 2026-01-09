@@ -3,8 +3,8 @@ layout: post
 title: a post with jupyter notebook
 date: 2026-01-02 12:00:00-0400
 description: Release of a software package for Surface X-ray scattering processing
-tags: XRR, GID, python, software
-categories: software
+tags: [XRR, GID, python, software]
+categories: [software]
 giscus_comments: true
 related_posts: false
 ---
