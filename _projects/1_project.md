@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 1
+title: SURF python package
 description: with background image
 img: assets/img/12.jpg
 importance: 1
@@ -8,33 +8,51 @@ category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+ESRF-ID10-SURF is a powerful package for analysis of surface scattering data obtain on the ID10 beamline at ESRF. It is constructed as a set of classes:
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+* XRR - for X-ray reflectometry analysis
+* GID - for Grazing Incidence Diffraction with 1D detector and Soller collimator 
+* GIXS - for Grazing Incidence X-ray Scattering: both GISAXS and GIWAXS measured with a large 2D detector
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+
+
+Below I will provide an explanation of various corrections, provided by the package. First, let's deal with XRR data.
+
+# X-ray Reflectometry
+
+## Experimental setup
+The usual XRR setup on ID10 is constructed in a simple way: beam is conditioned by a double mirror to reject higher harmonics, monochromated, collimated, focused with lenses and attenuated by a set of filters.
+These filters are foils of the same thickness, stacked and affixed on a rotating wheel with 20 positions. Normally, each foil transmits around a third of intensity, so two filters give an order of magnitude difference.
+
+This is a crucial component for an XRR measurement, as reflectivity decays as  $ q_z^{-4} $, but the detector dynamic range is limited. For example, at $q_z = 0.4 \,\text{A}^{-1}$, reflectivity $ R \simeq 10^{-8} $.
+That means that incoming intensity of $10^9$ will produce only 10 reflected photos, giving a very low signal-to-noise ratio. 
+However, the same intensity around the critical angle, where reflectivity is close to 1, reflected intensity will be far out of the acceptable countrate for hybrid photon-counting detectors, typically used for this kind of experiment.
+
+This example illustrates the need for changing filters frequently. These foils are often crystalline, for example Cu foils. This produce an unwanted scattering, if a grain of a foil enters a Bragg condition.
+A share of photons is thus scattered, leading to a slightly different transmission coefficient. This is amplified by a non-uniformity in thickness of the filters, misalignment and leads to jumps in detected intensity, when filters changes.
+To mitigate this problem, two counts are performed at the same incident angle: one with the old filter, and one with a new one. This allows to calculate a "true" transmission ratio and get rid of the jumps in reflectivity.
+
+
+
+
+For the experiments on liquid surfaces beam incident angle is changed by a Double Crystal Deflector (DCD). 
+
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Annotated_detector_profile.png" title="Integrated detector image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/detector_frames.png" title="Different incident angles" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    On the left: Integrated detector image showing intense diffuse scattering and position of the specular reflection and the Bragg peak.  <br>
+    On the right: Detector images at various incident angles, showing evolution of the diffuse scattering. 
 </div>
+
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
