@@ -1,7 +1,7 @@
 ---
 layout: page
 title: SURF python package
-description: with background image
+description: python package for surface scattering data processing
 img: assets/img/SURF_thumbnail.png
 importance: 1
 category: work
@@ -20,10 +20,12 @@ Below I will provide an explanation of various corrections, provided by the pack
 
 ## Experimental setup
 
-The usual XRR setup on ID10 is constructed in a simple way: beam is conditioned by a double mirror to reject higher harmonics, monochromated, collimated, focused with lenses and attenuated by a set of filters.
+The usual XRR setup on ID10 is constructed in a simple way: beam is conditioned by a double mirror to reject higher harmonics, monochromated, collimated, focused with lenses (for experiments on liquid surfaces beam incident angle is changed by a Double Crystal Deflector (DCD)) and attenuated by a set of filters.
 These filters are foils of the same thickness, stacked and affixed on a rotating wheel with 20 positions. Normally, each foil transmits around a third of intensity, so two filters give an order of magnitude difference.
+Before filters, beam intensity is measured either by an ionization chamber in DCD setup or by an avalanche photodiode measuring air scattering for experiments on solid surfaces to account for intensity fluctuations.
+Next, beam finally hits the sample, be it a Si wafer of a liquid surface, or any other interface. Photons can be reflected specularly, scattered or absorbed. Reflected and scattered photons are falling onto the detector, which is usually located behind slits and a flight tube at ca. 850 mm measured from the sample position.
 
-This is a crucial component for an XRR measurement, as reflectivity decays as $ q_z^{-4} $, but the detector dynamic range is limited. For example, at $q_z = 0.4 \,\text{A}^{-1}$, reflectivity $ R \simeq 10^{-8} $.
+Filters are a crucial component for an XRR measurement, as reflectivity decays as $ q_z^{-4} $, but the detector dynamic range is limited. For example, at $q_z = 0.4 \,\text{A}^{-1}$, reflectivity $ R \simeq 10^{-8} $.
 That means that incoming intensity of $10^9$ will produce only 10 reflected photos, giving a very low signal-to-noise ratio.
 However, the same intensity around the critical angle, where reflectivity is close to 1, reflected intensity will be far out of the acceptable countrate for hybrid photon-counting detectors, typically used for this kind of experiment.
 
@@ -31,7 +33,13 @@ This example illustrates the need for changing filters frequently. These foils a
 A share of photons is thus scattered, leading to a slightly different transmission coefficient. This is amplified by a non-uniformity in thickness of the filters, misalignment and leads to jumps in detected intensity, when filters changes.
 To mitigate this problem, two counts are performed at the same incident angle: one with the old filter, and one with a new one. This allows to calculate a "true" transmission ratio and get rid of the jumps in reflectivity.
 
-For the experiments on liquid surfaces beam incident angle is changed by a Double Crystal Deflector (DCD).
+Use of 2D detectors gives two very important advantages:
+
+- Increased resolution
+- Simultaneous detection of diffuse scattering and background
+
+Below is an example of several detector images, demonstrating these advantages. First, on the left figure a detector image shows a detector image on top with clearly visible gap between modules, shadows from the slits in front of the flight tube.
+Also, a specular reflection (sharp) and a diffuse Bragg peak (broad) are marked with arrows. Intensity integration in the specular plane produces a line profile, shown in the bottom left image, which we denote $ I(X) $. Background is taken from the same area, but slightly out of reflection plane.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -46,47 +54,10 @@ For the experiments on liquid surfaces beam incident angle is changed by a Doubl
     On the right: Detector images at various incident angles, showing evolution of the diffuse scattering. 
 </div>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+Resulting one-dimensional $ I(X) $ profiles are later converted to the slice of reciprocal space $ I\left(q_z, q_x, q_y=0\right) $ using the following formulae:
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+$$ q*z = k_0 \left( \sin\left( \chi + \frac{ \left( PX_0 - PX \right) \cdot D*{pix}}{{D\_{SDD} } } \right) + \sin\chi \right) $$
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+$$ q*x = k_0 \left( \cos\left( \chi + \frac{ \left( PX_0 - PX \right) \cdot D*{pix} }{ {D\_{SDD} } } \right) - \cos\chi \right) $$
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+$$ k_0 = \frac{2\pi}{\lambda} $$
