@@ -26,7 +26,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-
-My name is Egor Bersenev. I am a researcher, specializing in the field of experimental soft matter physics. 
+My name is Egor Bersenev. I am a researcher, specializing in the field of experimental soft matter physics.
 
 My work involves characterization of various soft systems with various methods, mostly with X-ray and Neutron scattering. Such soft systems include self-assembled polymers, colloids and liquid crystals. I'm interested in biomimetic structures and how their response to external stimuli is shaped by structural changes.
