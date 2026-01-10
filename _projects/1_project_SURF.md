@@ -56,8 +56,24 @@ Also, a specular reflection (sharp) and a diffuse Bragg peak (broad) are marked 
 
 Resulting one-dimensional $ I(X) $ profiles are later converted to the slice of reciprocal space $ I\left(q_z, q_x, q_y=0\right) $ using the following formulae:
 
-$$ q*z = k_0 \left( \sin\left( \chi + \frac{ \left( PX_0 - PX \right) \cdot D*{pix}}{{D\_{SDD} } } \right) + \sin\chi \right) $$
+$$ q_z = k*0 \left( \sin\left( \chi + \frac{ \left( PX_0 - PX \right) \cdot D_{ pix } }{ {D\_{ SDD } } } \right) + \sin\chi \right) $$
 
-$$ q*x = k_0 \left( \cos\left( \chi + \frac{ \left( PX_0 - PX \right) \cdot D*{pix} }{ {D\_{SDD} } } \right) - \cos\chi \right) $$
+
+$$ q_x = k*0 \left( \cos\left( \chi + \frac{ \left( PX_0 - PX \right) \cdot D_{ pix } }{ { D\_{ SDD } } } \right) - \cos\chi \right) $$
 
 $$ k_0 = \frac{2\pi}{\lambda} $$
+
+This allows us to produce reciprocal space maps to explore diffuse scattering and potentially gain a lot of useful information at no extra measurement cost!
+
+Finally, at low incident angles often beam footprint exceeds sample size. This is not an issue for experiments on Langmuir through, as its width is much bigger than beam footprint at critical angle of water. 
+In any case, a correction is required to account for this.
+
+## Data processing logic
+
+Now, it is quite straightforward to think of a data processing algorithm. First, we need to integrate the 2D detector images and obtain specular reflection and background intensitites
+Next, we need to subtract background and normalize each point to the respective filter transmission.
+After that --- recalculate incident angle into $ q_z $ value for each point in the scan. 
+Next, a correct value of the incident beam intensity can be obtained from a z-scan, performed with the same filter as the initial part of reflectivity.
+Finally, a footprint correction can be performed, taking into account sample and beam size, with points having reflectivity>1 trimmed.
+
+
