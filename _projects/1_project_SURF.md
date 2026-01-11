@@ -76,4 +76,61 @@ After that --- recalculate incident angle into $ q_z $ value for each point in t
 Next, a correct value of the incident beam intensity can be obtained from a z-scan, performed with the same filter as the initial part of reflectivity.
 Finally, a footprint correction can be performed, taking into account sample and beam size, with points having reflectivity>1 trimmed.
 
+### Initialize the processing pipeline
 
+First, we need to import the processing library itself and initialize our class with relevant parameters
+``` python
+from ESRF_ID10_SURF.XRR import XRR
+import matplotlib.pyplot as plt
+
+FileDir = '/mnt/data/ls3582/id10-surf/20251120/RAW_DATA/DPPC_0PS/DPPC_0PS_0002/'
+FileName = 'DPPC_0PS_0002.h5'
+
+file = FileDir+FileName
+
+SavingDir = FileDir.replace('RAW_DATA', 'PROCESSED_DATA')  
+### optional. If this argument is not given to the class, data will be saved in the folder where the script runs
+
+zgH_ScanN_list = [21]     ### z-scan for normalization of intensity with the same filter
+refl_ScanN_list = [22,23] ### actual XRR scans
+```
+
+Next, we need to create instances of our class, each will carry its own type of measurement. We will need two: one for z-scan to extract true intensity and one for the actual XRR measurement.
+
+### ROI definition and integration
+
+To know which part of the detector is the center (where the direct beam hits) we need to pass coordinates to the class instance.
+Also, we can manually define size of the region of interest for our signal, e.g. when the sample is slightly bent and reflected beam is spread across several pixels.
+Same goes for the gap between signal and background ROIs, which can be specified using bckg_gap parameter.
+
+```python
+(PX0, PY0) = (401, 300)
+(dPX, dPY) = (8, 5)
+bckg_gap = 3
+monitor_name = 'ionch2'
+```
+Now we can initialize the measurement instances:
+```python
+refl = XRR(file, refl_ScanN_list, alpha_i_name='mu', PX0=PX0, PY0=PY0, dPX=dPX, dPY =dPY, bckg_gap=bckg_gap, monitor_name=monitor_name ,saving_dir=SavingDir)
+zgH = XRR(file, zgH_ScanN_list, alpha_i_name='zgH', PX0=PX0, PY0=PY0, dPX=dPX, dPY =dPY, bckg_gap=bckg_gap, monitor_name=monitor_name)
+```
+
+### Detector image
+
+Any detector image can be diagnosed with 
+
+```python 
+refl.show_detector_image(50)
+plt.xlim(200, 450)
+```
+![Detector image with ROIs highlited](/assets/img/SURF_XRR_det_rois.png)
+On this image shadow from slits, detector gaps and ROIs can be clearly seen.
+
+### Intensity integration
+Let's integrate the intensity in ROIs and plot it together:
+
+![Integrated intensity](/assets/img/SURF_raw_count_bckg.png)
+
+### Subtract the background
+
+![Background-subtracted intensity](/assets/img/SURF_raw_count_bckg_sub.png)
