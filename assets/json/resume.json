@@ -1,7 +1,6 @@
 {
   "basics": {
     "name": "Egor Bersenev",
-    "label": "Scientist",
     "image": "",
     "email": "bersenjow@gmail.com",
     "phone": "+33 7 66 60 43 38",
@@ -218,7 +217,7 @@
     {
       "name": "Computing",
       "level": "",
-      "keywords": ["Python", "Linux", "LATEX"]
+      "keywords": ["Python", "Linux", "LATEX", "Git"]
     }
   ],
   "languages": [
