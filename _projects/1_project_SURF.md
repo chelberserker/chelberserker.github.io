@@ -134,3 +134,7 @@ Let's integrate the intensity in ROIs and plot it together:
 ### Subtract the background
 
 ![Background-subtracted intensity](/assets/img/SURF_raw_count_bckg_sub.png)
+
+### 
+
+![Background-subtracted intensity](/assets/img/SURF_raw_count_bckg_sub.png)
