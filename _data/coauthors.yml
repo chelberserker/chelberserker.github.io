@@ -4,21 +4,21 @@
     url: https://www.bristol.ac.uk/people/person/Wuge-Briscoe-253f6a52-76c9-4d63-a5c5-7443aebf5868/
 
 "matthews":
-  - firstname: ["Lauren", "L"]
+  - firstname: ["Lauren", "L."]
     lastname: "Matthews"
     url: https://www.isis.stfc.ac.uk/Pages/Dr-Lauren-Matthews.aspx
 
 "gutfreund":
   - firstname: ["Philipp", "P."]
-    lastname: ["Gutfreund"]
+    lastname: "Gutfreund"
     url: https://www.ill.eu/for-ill-users/scientific-groups/large-scale-structures/people/philipp-gutfreund
 
 "sheiko":
   - firstame: ["Sergei", "S.", "Sergei S."]
-    lastname: ['Sheiko']
+    lastname: "Sheiko"
     url: https://chem.unc.edu/faculty/sheiko-sergei/
 
 "apos":
   - firstname: ["Apostolos", "A."]
-    lastname: ["Avgeropoulos"]
+    lastname: "Avgeropoulos"
     url: http://www.materials.uoi.gr/en/avgeropoulos.php
