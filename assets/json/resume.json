@@ -5,7 +5,7 @@
     "email": "bersenjow@gmail.com",
     "phone": "+33 7 66 60 43 38",
     "url": "https://chelberserker.github.io",
-    "summary": "Scientist in the field of soft matter physics, specializing in X-ray scattering, polymers, and self-assembly. Experienced in establishing composition-structure relationships in polymer-surfactant mixtures.",
+    "summary": "Scientist in the field of soft matter physics, specializing in X-ray scattering, polymers, and self-assembly. Experienced in establishing composition-structure relationships in polymer-surfactant mixtures, block copolymers and synthetic biomimetic systems.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -72,6 +72,7 @@
     {
       "institution": "University of Bristol",
       "location": "Bristol, England",
+      "url": "https://bristol.ac.uk",
       "area": "Chemistry",
       "studyType": "PhD",
       "startDate": "2021",
@@ -210,28 +211,27 @@
         "Self-assembly",
         "Neutron scattering",
         "Light scattering",
-        "Thermal analysis",
-        "Scanning calorimetry"
+        "Thermal analysis"
       ]
     },
     {
       "name": "Computing",
-      "level": "",
+      "level": "Expert",
       "keywords": ["Python", "Linux", "LATEX", "Git"]
     }
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "C2"
+      "fluency": "Fluent"
     },
     {
       "language": "French",
-      "fluency": "B2"
+      "fluency": "Full professional proficiency"
     },
     {
       "language": "German",
-      "fluency": "B1"
+      "fluency": "Limited professional proficiency"
     },
     {
       "language": "Russian",
