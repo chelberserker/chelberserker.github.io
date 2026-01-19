@@ -2,18 +2,18 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: # the website title (if blank, full name will be used instead)
+title: Egor Bersenev | Scattering in soft matter physics # the website title (if blank, full name will be used instead)
 first_name: Egor
 middle_name: A.
 last_name: Bersenev
 contact_note: >
   Contact me by email!
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal web page of Egor A. Bersenev
+  Personal web page of Egor A. Bersenev. I am a scientist specializing in application of scattering (X-ray, light and neutron) to problems in soft matter and bio physics.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: bersenev, soft-matter-physics, X-ray-scattering # add your own keywords or leave empty
+keywords: bersenev, soft matter, X ray scattering, researcher, chemistry, reflecivity # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -78,7 +78,9 @@ pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
 openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
-google_site_verification: -K9QNZ6yDB2AwLH5JwiQlIXrOiZRLjU0DFZU-F8SdF0# your google-site-verification ID (Google Search Console)
+
+#<meta name="google-site-verification" content="-K9QNZ6yDB2AwLH5JwiQlIXrOiZRLjU0DFZU-F8SdF0" />
+google_site_verification: -K9QNZ6yDB2AwLH5JwiQlIXrOiZRLjU0DFZU-F8SdF0 # your google-site-verification ID (Google Search Console)
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
@@ -386,7 +388,7 @@ enable_google_analytics: true # enables google analytics
 enable_cronitor_analytics: false # enables cronitor RUM analytics
 enable_pirsch_analytics: false # enables Pirsch analytics (https://pirsch.io/)
 enable_openpanel_analytics: false # enables Openpanel analytics (https://openpanel.dev/)
-enable_google_verification: false # enables google site verification
+enable_google_verification: true # enables google site verification
 enable_bing_verification: false # enables bing site verification
 enable_masonry: true # enables automatic project cards arrangement
 enable_math: true # enables math typesetting (uses MathJax)
