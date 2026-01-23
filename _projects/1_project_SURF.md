@@ -1,20 +1,29 @@
 ---
 layout: page
 title: SURF python package
-description: python package for surface scattering data processing
+description: python package for surface scattering (XRR, GID, GIXS) data processing
 img: assets/img/SURF_thumbnail.png
 importance: 1
 category: work
 related_publications: true
 ---
 
-ESRF-ID10-SURF is a powerful package for analysis of surface scattering data obtain on the ID10 beamline at ESRF. It is constructed as a set of classes:
+ESRF-ID10-SURF is a powerful package for analysis of surface scattering data obtain on the [ID10 beamline at ESRF][1]. It is constructed as a set of classes:
 
 - XRR - for X-ray reflectometry analysis
 - GID - for Grazing Incidence Diffraction with 1D detector and Soller collimator
 - GIXS - for Grazing Incidence X-ray Scattering: both GISAXS and GIWAXS measured with a large 2D detector
 
+Documentation for the software is [**here**](https://chelberserker.github.io/ESRF_ID10_SURF)
+
+If you are interested in physics of scattering and particularities that arise on interfaces, I recommend [book of Als-Nielsen][2] 
+
+[1]: <https://www.esrf.fr/UsersAndScience/Experiments/ID10-SURF> "ID10-SURF"
+[2]: <https://www.xray.cz/kryst/xray.pdf> "Jens Als-Nielsen, Elements of Modern X-ray Physics"
+
 Below I will provide an explanation of various corrections, provided by the package. First, let's deal with XRR data.
+
+
 
 # X-ray Reflectometry
 
@@ -131,10 +140,60 @@ Let's integrate the intensity in ROIs and plot it together:
 
 ![Integrated intensity](/assets/img/SURF_raw_count_bckg.png)
 
+This picture is as expected and highlights the importance of background subtraction. Here, starting from ca. 1.25 degrees of incident angle, it is difficult to distinguish between signal and the background.
+Thanks to the use of a 2D detector, it is possible to measure both background and signal at the same time.
+
 ### Subtract the background
 
 ![Background-subtracted intensity](/assets/img/SURF_raw_count_bckg_sub.png)
 
-### 
+Background subtraction reveals a hint to a second fringe, but to obtain reflectivity we need to normalize by the filter transmission.
 
-![Background-subtracted intensity](/assets/img/SURF_raw_count_bckg_sub.png)
+### Normalize by filter transmission
+
+![Background-subtracted intensity](/assets/img/SURF_raw_count_bckg_sub_trasm_cor.png)
+
+This resembles reflectivity, however, a few things are off: x-axis is still in angles and is energy-dependent, there are intensity steps during filter change, and reflectivity is in arbitrary units.
+
+### Convert angles to q
+
+Using a formula for $q_z$:
+
+$$ q_z = \frac{4\pi\sin\theta}{\lambda} $$
+
+![Reflectivity-against-q](/assets/img/SURF_cts_qz.png)
+
+### Correct intensity steps using double points
+
+To get rid of the intensity jumps we go through all the filter changes and compare the intensity with a "new" and "old" filter.
+This ratio is used to extract "true" transmission ratio between the filters, assuming that sample does not change. This allows to obtain a smooth reflectivity curve.
+
+![Correct_double_point](/assets/img/SURF_double_cor.png)
+
+### Intensity normalization
+
+Because the first part of the reflectivity (up to $ 2 \alpha_c $) was measured with the same filter as z-scan, preceding it, we can extract precise value of the intensity.
+It allows for a correct normalization of intensity, so that $ R(q<q_c) =1 $.
+
+![I0_correction](/assets/img/SURF_I0_cor.png)
+
+### Footprint correction
+
+Due to the small grazing angle, footprint of the beam on sample is significantly increased.
+This means that for small samples it can be larger than the sample size. While for liquid surfaces it is less of a concern, for small solid sample it may have a significant effect.
+Let's estimate the footprint of the typical ID10 beam ($b_V = 20 $ microns, 22.5 keV) at critical angle for Si.
+
+$$ \alpha_c = 0.07923^{\mathrm{o}} = 0.00138\,\mathrm{rad} $$
+$$ d_c = \frac{b_V}{\sin \alpha_c} = \frac{20 \cdot 10^{-6} }{\sin\alpha_c \simeq \alpha_c \simeq 0.00138} = 0.0144\,\mathrm{m} = 1.44\,\mathrm{cm} $$
+
+Therefore, samples, that are larger than 1.44 cm should be fully illuminated at critical angle. 
+Langmuir through size is 17 cm, so only very small angles are affected by this correction for experiments on liquds. Nevertheless, the effect of this correction is visible. 
+
+![ftp_correction](/assets/img/SURF_ftp_cor.png)
+
+After this step reflectivity curve is fully corrected and can be used for fitting. All these steps are included in auto-correction procedure, implemented in the library.
+
+
+# Grazing Incidence Diffraction
+
+To be continued.
