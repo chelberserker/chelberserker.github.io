@@ -6,7 +6,7 @@ inline: false
 related_posts: false
 ---
 
-## The first paper from my PhD project
+## Second paper from my PhD project
 
 Paper titled "Humidity-Induced Structural Transformation in Self-Organized Polymer–Surfactant Multilayer Nanofilms" is out on the journal website.
 

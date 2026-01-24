@@ -196,4 +196,4 @@ After this step reflectivity curve is fully corrected and can be used for fittin
 
 # Grazing Incidence Diffraction
 
-To be continued.
+

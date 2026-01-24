@@ -9,9 +9,13 @@ giscus_comments: true
 related_posts: false
 ---
 
-I have just released a Python package that organically arise from my PhD work. 
+I have released a Python package for XRR and GID data analysis. This has organically emerged from my PhD work on the beamline.
 The main purpose of it is simple and reproducible processing of X-ray reflectivity and Grazing Incidence Diffraction data obtained on the ID10-SURF beamline at ESRF.
-Main processing pipeline was settled during past few years with inputs from Oleg Konovalov (scientist in charge of ID10) and Maciej Jankowski (beamline scientist at the time, now software engineer at ESRF).
+Main processing pipeline was settled during past few years (2021-2024) with lots of input from Oleg Konovalov (scientist in charge of ID10), Maciej Jankowski (beamline scientist at the time, now software engineer at ESRF) and some beamline users.
+
+For the moment it is only focused on ID10-SURF setup, but later other instruments may be implemented, e.g. BM28 XMaS at ESRF.
+Overall logic follows ESRF data structure, which is NeXuS compliant, when generated with BLISS.
+In principle, it can be adapted to be used with EWOKS software to initiate processing in real time.
 
 The package can be installed via pip:
 
@@ -27,20 +31,9 @@ cd ESRF_ID10_SURF
 pip install -e .
 ```
 
+Package also provides a batch processing through command line script.
 
 Code is available freely on my [GitHub](https://github.com/chelberserker/ESRF_ID10_SURF) and is distributed through MIT license.
 API documentation is hosted [here](https://chelberserker.github.io/ESRF_ID10_SURF) and will be updated 
 
-Below is an example of processing XRR and GID data with this package. 
-It also demonstrates how a simple fitting of GID can be performed to make quick conclusion during the experiment.
-Fitting of XRR data is deliberately not included in the package, but it is good practice to guesstimate it with something else, e.g. [refnx](https://refnx.readthedocs.io).
-
-
-{% assign jupyter_path = 'assets/jupyter/SURF_usage.ipynb' | relative_url %}
-{% capture notebook_exists %}{% file_exists assets/jupyter/SURF_usage.ipynb %}{% endcapture %}
-{% if notebook_exists == 'true' %}
-  {% jupyter_notebook jupyter_path %}
-{% else %}
-  <p>Sorry, the notebook you are looking for does not exist.</p>
-{% endif %}
-
+I have described operation of the soft in [documentation](https://chelberserker.github.io/ESRF_ID10_SURF) and in a [blog post](/_projects/1_project_SURF.md)
