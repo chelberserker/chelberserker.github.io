@@ -89,6 +89,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-10-23-Langmuir-humidity-induced/";
+            },},{id: "news-new-release-of-esrf-id10-surf",
+          title: 'New release of ESRF-ID10-SURF',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-01-24-SURF-new-release/";
             },},{id: "projects-surf-python-package",
           title: 'SURF python package',
           description: "python package for surface scattering (XRR, GID, GIXS) data processing",
