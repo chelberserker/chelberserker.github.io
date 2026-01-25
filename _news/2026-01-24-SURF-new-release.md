@@ -1,7 +1,7 @@
 ---
 layout: post
 title: New release of ESRF-ID10-SURF
-date: 2026-01-24 16:11:00-0400
+date: 2026-01-24 10:00:00-0000
 inline: false
 related_posts: false
 ---
