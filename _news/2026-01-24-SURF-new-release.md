@@ -8,8 +8,8 @@ related_posts: false
 
 ## New release of ESRF-ID10-SURF
 
-New release of the package is now published on [PyPi](https://pypi.org/project/esrf-id10-surf/).
-Documentation can be found [here](https://chelberserker.github.io/ESRF_ID10_SURF) and description of logic is in [this blog post](/_projects/1_project_SURF.md).
+New release of the package is now published on [**PyPi**](https://pypi.org/project/esrf-id10-surf/).
+Documentation can be found [**here**](https://chelberserker.github.io/ESRF_ID10_SURF) and description of logic is in [**this blog post**](/_projects/1_project_SURF.md).
 
 New features include:
 
