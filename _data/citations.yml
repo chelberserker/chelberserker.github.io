@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-01-19'
+  last_updated: '2026-02-16'
 papers:
   Q2yuoqwAAAAJ:2osOgNQ5qMEC:
     citations: 38
@@ -38,7 +38,7 @@ papers:
     title: Molecular patterns of oligopeptide hydrocarbons on graphite
     year: '2021'
   Q2yuoqwAAAAJ:YsMSGLbcyi4C:
-    citations: 112
+    citations: 115
     title: Injectable bottlebrush hydrogels with tissue-mimetic mechanical properties
     year: '2022'
   Q2yuoqwAAAAJ:_FxGoFyzp5QC:
@@ -50,9 +50,13 @@ papers:
     title: Synergetic effect of fullerene and graphene oxide nanoparticles on mechanical characteristics of cross-linked polyurethanes under static and dynamic loading
     year: '2019'
   Q2yuoqwAAAAJ:eQOLeE2rZwMC:
-    citations: 48
+    citations: 49
     title: 'Brush architecture and network elasticity: path to the design of mechanically diverse elastomers'
     year: '2022'
+  Q2yuoqwAAAAJ:hqOjcs7Dif8C:
+    citations: 0
+    title: Mechanistic insights from dynamic structural changes of model bacterial cytoplasmic membranes challenged by Gemini surfactant octenidine
+    year: Unknown Year
   Q2yuoqwAAAAJ:qjMakFHDy7sC:
     citations: 3
     title: Exploring the Complexation of Counterion in Novel Family of Polyelectrolytes with Unexpected Solubility Behaviour
