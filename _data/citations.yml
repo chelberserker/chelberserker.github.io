@@ -1,12 +1,16 @@
 metadata:
-  last_updated: '2026-02-16'
+  last_updated: '2026-03-02'
 papers:
+  Q2yuoqwAAAAJ:0EnyYjriUFMC:
+    citations: 0
+    title: 'Connecting Polymer-surfactant Interaction in Solution with the Structure on the Interface: Interplay Between Electrostatic and Hydrophobic Forces'
+    year: '2025'
   Q2yuoqwAAAAJ:2osOgNQ5qMEC:
-    citations: 38
+    citations: 37
     title: Independently tuning elastomer softness and firmness by incorporating side chain mixtures into bottlebrush network strands
     year: '2020'
   Q2yuoqwAAAAJ:IjCSPb-OGe4C:
-    citations: 8
+    citations: 7
     title: 'Self-Assembly of Low-Molecular-Weight Asymmetric Linear Triblock Terpolymers: How Low Can We Go?'
     year: '2020'
   Q2yuoqwAAAAJ:LkGwnXOMwfcC:
@@ -30,7 +34,7 @@ papers:
     title: "Humidity-Induced Structural Transformation in Self-Organized Polymer\u2013Surfactant Multilayer Nanofilms"
     year: '2025'
   Q2yuoqwAAAAJ:W7OEmFMy1HYC:
-    citations: 20
+    citations: 21
     title: "Synthesis, Molecular Characterization, and Phase Behavior of Miktoarm Star Copolymers of the ABn and AnB (n = 2 or 3) Sequences, Where A Is Polystyrene \u2026"
     year: '2021'
   Q2yuoqwAAAAJ:Y0pCki6q_DkC:
