@@ -1,14 +1,18 @@
 metadata:
-  last_updated: '2026-03-27'
+  last_updated: '2026-03-30'
 papers:
   Q2yuoqwAAAAJ:0EnyYjriUFMC:
     citations: 0
     title: 'Connecting Polymer-surfactant Interaction in Solution with the Structure on the Interface: Interplay Between Electrostatic and Hydrophobic Forces'
     year: '2025'
   Q2yuoqwAAAAJ:2osOgNQ5qMEC:
-    citations: 37
+    citations: 38
     title: Independently tuning elastomer softness and firmness by incorporating side chain mixtures into bottlebrush network strands
     year: '2020'
+  Q2yuoqwAAAAJ:5nxA0vEk-isC:
+    citations: 0
+    title: 'Hexagonal Boron Nitride on Liquid and Single-Crystal Copper: Operando X-Ray and Atomistic Insights into Growth and Interfacial Structure'
+    year: '2026'
   Q2yuoqwAAAAJ:IjCSPb-OGe4C:
     citations: 7
     title: 'Self-Assembly of Low-Molecular-Weight Asymmetric Linear Triblock Terpolymers: How Low Can We Go?'
@@ -26,7 +30,7 @@ papers:
     title: Melting-induced evolution of morphology, entanglement density, and ultradrawability of solution-crystallized ultrahigh-molecular-weight polyethylene
     year: '2021'
   Q2yuoqwAAAAJ:UeHWp8X0CEIC:
-    citations: 55
+    citations: 56
     title: "Tissue\u2010Adaptive Materials with Independently Regulated Modulus and Transition Temperature"
     year: '2020'
   Q2yuoqwAAAAJ:UebtZRa9Y70C:
