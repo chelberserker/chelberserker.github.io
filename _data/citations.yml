@@ -1,12 +1,20 @@
 metadata:
-  last_updated: '2026-01-19'
+  last_updated: '2026-03-30'
 papers:
+  Q2yuoqwAAAAJ:0EnyYjriUFMC:
+    citations: 0
+    title: 'Connecting Polymer-surfactant Interaction in Solution with the Structure on the Interface: Interplay Between Electrostatic and Hydrophobic Forces'
+    year: '2025'
   Q2yuoqwAAAAJ:2osOgNQ5qMEC:
     citations: 38
     title: Independently tuning elastomer softness and firmness by incorporating side chain mixtures into bottlebrush network strands
     year: '2020'
+  Q2yuoqwAAAAJ:5nxA0vEk-isC:
+    citations: 0
+    title: 'Hexagonal Boron Nitride on Liquid and Single-Crystal Copper: Operando X-Ray and Atomistic Insights into Growth and Interfacial Structure'
+    year: '2026'
   Q2yuoqwAAAAJ:IjCSPb-OGe4C:
-    citations: 8
+    citations: 7
     title: 'Self-Assembly of Low-Molecular-Weight Asymmetric Linear Triblock Terpolymers: How Low Can We Go?'
     year: '2020'
   Q2yuoqwAAAAJ:LkGwnXOMwfcC:
@@ -14,15 +22,15 @@ papers:
     title: 'Polymer-surfactant interaction: connection between confinement and bulk'
     year: Unknown Year
   Q2yuoqwAAAAJ:Se3iqnhoufwC:
-    citations: 8
+    citations: 9
     title: 'Balance of hydrophobic and electrostatic interaction of polymers and surfactants: Case of anionic surfactant and hydrophobically modified polymer'
     year: '2025'
   Q2yuoqwAAAAJ:Tyk-4Ss8FVUC:
-    citations: 35
+    citations: 36
     title: Melting-induced evolution of morphology, entanglement density, and ultradrawability of solution-crystallized ultrahigh-molecular-weight polyethylene
     year: '2021'
   Q2yuoqwAAAAJ:UeHWp8X0CEIC:
-    citations: 55
+    citations: 56
     title: "Tissue\u2010Adaptive Materials with Independently Regulated Modulus and Transition Temperature"
     year: '2020'
   Q2yuoqwAAAAJ:UebtZRa9Y70C:
@@ -30,7 +38,7 @@ papers:
     title: "Humidity-Induced Structural Transformation in Self-Organized Polymer\u2013Surfactant Multilayer Nanofilms"
     year: '2025'
   Q2yuoqwAAAAJ:W7OEmFMy1HYC:
-    citations: 20
+    citations: 22
     title: "Synthesis, Molecular Characterization, and Phase Behavior of Miktoarm Star Copolymers of the ABn and AnB (n = 2 or 3) Sequences, Where A Is Polystyrene \u2026"
     year: '2021'
   Q2yuoqwAAAAJ:Y0pCki6q_DkC:
@@ -38,21 +46,25 @@ papers:
     title: Molecular patterns of oligopeptide hydrocarbons on graphite
     year: '2021'
   Q2yuoqwAAAAJ:YsMSGLbcyi4C:
-    citations: 112
+    citations: 119
     title: Injectable bottlebrush hydrogels with tissue-mimetic mechanical properties
     year: '2022'
   Q2yuoqwAAAAJ:_FxGoFyzp5QC:
-    citations: 33
+    citations: 35
     title: Super-soft, firm, and strong elastomers toward replication of tissue viscoelastic response
     year: '2022'
   Q2yuoqwAAAAJ:d1gkVwhDpl0C:
-    citations: 17
+    citations: 18
     title: Synergetic effect of fullerene and graphene oxide nanoparticles on mechanical characteristics of cross-linked polyurethanes under static and dynamic loading
     year: '2019'
   Q2yuoqwAAAAJ:eQOLeE2rZwMC:
-    citations: 48
+    citations: 50
     title: 'Brush architecture and network elasticity: path to the design of mechanically diverse elastomers'
     year: '2022'
+  Q2yuoqwAAAAJ:hqOjcs7Dif8C:
+    citations: 0
+    title: Mechanistic insights from dynamic structural changes of model bacterial cytoplasmic membranes challenged by Gemini surfactant octenidine
+    year: '2026'
   Q2yuoqwAAAAJ:qjMakFHDy7sC:
     citations: 3
     title: Exploring the Complexation of Counterion in Novel Family of Polyelectrolytes with Unexpected Solubility Behaviour
