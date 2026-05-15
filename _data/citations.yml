@@ -1,17 +1,21 @@
 metadata:
-  last_updated: '2026-03-30'
+  last_updated: '2026-05-15'
 papers:
   Q2yuoqwAAAAJ:0EnyYjriUFMC:
     citations: 0
     title: 'Connecting Polymer-surfactant Interaction in Solution with the Structure on the Interface: Interplay Between Electrostatic and Hydrophobic Forces'
     year: '2025'
   Q2yuoqwAAAAJ:2osOgNQ5qMEC:
-    citations: 38
+    citations: 39
     title: Independently tuning elastomer softness and firmness by incorporating side chain mixtures into bottlebrush network strands
     year: '2020'
   Q2yuoqwAAAAJ:5nxA0vEk-isC:
     citations: 0
     title: 'Hexagonal Boron Nitride on Liquid and Single-Crystal Copper: Operando X-Ray and Atomistic Insights into Growth and Interfacial Structure'
+    year: '2026'
+  Q2yuoqwAAAAJ:8k81kl-MbHgC:
+    citations: 0
+    title: 'Origins of the Bottlebrush Scattering Peak: Packing and Microphase Separation in Brush-like Polymers'
     year: '2026'
   Q2yuoqwAAAAJ:IjCSPb-OGe4C:
     citations: 7
@@ -22,7 +26,7 @@ papers:
     title: 'Polymer-surfactant interaction: connection between confinement and bulk'
     year: Unknown Year
   Q2yuoqwAAAAJ:Se3iqnhoufwC:
-    citations: 9
+    citations: 12
     title: 'Balance of hydrophobic and electrostatic interaction of polymers and surfactants: Case of anionic surfactant and hydrophobically modified polymer'
     year: '2025'
   Q2yuoqwAAAAJ:Tyk-4Ss8FVUC:
@@ -30,7 +34,7 @@ papers:
     title: Melting-induced evolution of morphology, entanglement density, and ultradrawability of solution-crystallized ultrahigh-molecular-weight polyethylene
     year: '2021'
   Q2yuoqwAAAAJ:UeHWp8X0CEIC:
-    citations: 56
+    citations: 58
     title: "Tissue\u2010Adaptive Materials with Independently Regulated Modulus and Transition Temperature"
     year: '2020'
   Q2yuoqwAAAAJ:UebtZRa9Y70C:
@@ -46,7 +50,7 @@ papers:
     title: Molecular patterns of oligopeptide hydrocarbons on graphite
     year: '2021'
   Q2yuoqwAAAAJ:YsMSGLbcyi4C:
-    citations: 119
+    citations: 125
     title: Injectable bottlebrush hydrogels with tissue-mimetic mechanical properties
     year: '2022'
   Q2yuoqwAAAAJ:_FxGoFyzp5QC:
@@ -58,7 +62,7 @@ papers:
     title: Synergetic effect of fullerene and graphene oxide nanoparticles on mechanical characteristics of cross-linked polyurethanes under static and dynamic loading
     year: '2019'
   Q2yuoqwAAAAJ:eQOLeE2rZwMC:
-    citations: 50
+    citations: 51
     title: 'Brush architecture and network elasticity: path to the design of mechanically diverse elastomers'
     year: '2022'
   Q2yuoqwAAAAJ:hqOjcs7Dif8C:
