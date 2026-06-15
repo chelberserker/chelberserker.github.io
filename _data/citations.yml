@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-08'
+  last_updated: '2026-06-15'
 papers:
   Q2yuoqwAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -50,7 +50,7 @@ papers:
     title: Molecular patterns of oligopeptide hydrocarbons on graphite
     year: '2021'
   Q2yuoqwAAAAJ:YsMSGLbcyi4C:
-    citations: 126
+    citations: 127
     title: Injectable bottlebrush hydrogels with tissue-mimetic mechanical properties
     year: '2022'
   Q2yuoqwAAAAJ:_FxGoFyzp5QC:
@@ -68,7 +68,7 @@ papers:
   Q2yuoqwAAAAJ:hqOjcs7Dif8C:
     citations: 0
     title: Mechanistic insights from dynamic structural changes of model bacterial cytoplasmic membranes challenged by Gemini surfactant octenidine
-    year: Unknown Year
+    year: '2026'
   Q2yuoqwAAAAJ:qjMakFHDy7sC:
     citations: 3
     title: Exploring the Complexation of Counterion in Novel Family of Polyelectrolytes with Unexpected Solubility Behaviour
@@ -82,6 +82,6 @@ papers:
     title: "Synthesis and Solid-State Properties of PolyC3 (Co)polymers Containing (CH2\u2013CH2\u2013C(COOR)2) Repeat Units with Densely Packed Fluorocarbon Lateral Chains"
     year: '2019'
   Q2yuoqwAAAAJ:ufrVoPGSRksC:
-    citations: 13
+    citations: 14
     title: 'Bottlebrush elastomers with crystallizable side chains: Monitoring configuration of polymer backbones in the amorphous regions during crystallization'
     year: '2022'
