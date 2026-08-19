@@ -273,7 +273,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
   last_name: [Bersenev]
-  first_name: [Egor, A.]
+  first_name: [Egor A.]
 
   style: apa
   locale: en
