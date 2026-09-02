@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-29'
+  last_updated: '2026-09-02'
 papers:
   Q2yuoqwAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -14,7 +14,7 @@ papers:
     title: "Hexagonal Boron Nitride on Liquid and Single\u2010Crystal Copper: Operando X\u2010Ray and Atomistic Insights into Growth and Interfacial Structure"
     year: '2026'
   Q2yuoqwAAAAJ:8k81kl-MbHgC:
-    citations: 0
+    citations: 1
     title: 'Origins of the Bottlebrush Scattering Peak: Packing and Microphase Separation in Brush-like Polymers'
     year: '2026'
   Q2yuoqwAAAAJ:IjCSPb-OGe4C:
@@ -25,6 +25,10 @@ papers:
     citations: 0
     title: 'Polymer-surfactant interaction: connection between confinement and bulk'
     year: Unknown Year
+  Q2yuoqwAAAAJ:MXK_kJrjxJIC:
+    citations: 5
+    title: 'Injectable bottlebrush hydrogels with tissue-mimetic mechanical properties.. Sci. Adv. 8:(3): eabm2469'
+    year: '2022'
   Q2yuoqwAAAAJ:Se3iqnhoufwC:
     citations: 14
     title: 'Balance of hydrophobic and electrostatic interaction of polymers and surfactants: Case of anionic surfactant and hydrophobically modified polymer'
@@ -44,13 +48,13 @@ papers:
   Q2yuoqwAAAAJ:W7OEmFMy1HYC:
     citations: 23
     title: "Synthesis, Molecular Characterization, and Phase Behavior of Miktoarm Star Copolymers of the ABn and AnB (n = 2 or 3) Sequences, Where A Is Polystyrene \u2026"
-    year: '2021'
+    year: '2022'
   Q2yuoqwAAAAJ:Y0pCki6q_DkC:
-    citations: 12
+    citations: 11
     title: Molecular patterns of oligopeptide hydrocarbons on graphite
     year: '2021'
   Q2yuoqwAAAAJ:YsMSGLbcyi4C:
-    citations: 128
+    citations: 131
     title: Injectable bottlebrush hydrogels with tissue-mimetic mechanical properties
     year: '2022'
   Q2yuoqwAAAAJ:_FxGoFyzp5QC:
@@ -66,7 +70,7 @@ papers:
     title: 'Brush architecture and network elasticity: path to the design of mechanically diverse elastomers'
     year: '2022'
   Q2yuoqwAAAAJ:hqOjcs7Dif8C:
-    citations: 0
+    citations: 1
     title: Mechanistic insights from dynamic structural changes of model bacterial cytoplasmic membranes challenged by Gemini surfactant octenidine
     year: '2026'
   Q2yuoqwAAAAJ:qjMakFHDy7sC:
